@@ -1,0 +1,30 @@
+img {
+  max-width: 65vw;
+  transition: 0.3s;
+}
+
+.imageContainer {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 2rem;
+}
+
+.imageContainer p {
+  text-align: center;
+}
+
+@media (min-width: 1023px) {
+  img {
+    max-width: 500px;
+  }
+
+  .imageContainer {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5rem;
+  }
+
+  .imageContainer p {
+    text-align: left;
+  }
+}
