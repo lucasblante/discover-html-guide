@@ -221,6 +221,12 @@ div .button:hover {
     margin-top: 1.8rem;
     grid-auto-flow: column;
   }
+  
+  #header a:hover {
+    color: #9466ff;
+    font-weight: bold;
+    transition: 0.2s;
+  }
 
   #header a.active {
     color: #9466ff;
